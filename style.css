@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dddddd;
+  background: radial-gradient(
+    circle,
+    rgb(255, 229, 204) 11%,
+    rgb(229, 126, 255) 100%
+  );
+  color: white;
+}
+
+.carte {
+  background: rgb(23, 189, 218);
+  background: radial-gradient(
+    circle,
+    rgb(57, 10, 224) 11%,
+    rgb(202, 29, 179) 100%
+  );
+  border-radius: 10 px;
+  font-size: 1, 5em;
+  height: 600px;
+  margin: auto;
+  width: 700px;
+  position: relative;
+}
+
+.titre {
+  position: absolute;
+  left: 400px;
+  top: 110px;
+  border-bottom: 3px solid white;
+  padding-bottom: 30px;
+}
+
+.info {
+  position: absolute;
+  left: 400px;
+  bottom: 110px;
+}
+
+.social {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 100px;
+  bottom: 30px;
+}
+
+figure.photo {
+  position: absolute;
+  top: 90px;
+  left: 40px;
+}
+
+figure.photo img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.social figure {
+  display: inline;
+}
+
+.social figure img {
+  width: 30px;
+}
+
+.social figure img:hover {
+  width: 40px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  font-weight: bold;
+}
